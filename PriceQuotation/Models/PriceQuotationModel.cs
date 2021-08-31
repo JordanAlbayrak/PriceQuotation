@@ -6,6 +6,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace PriceQuotation.Models
 {
+    //It takes input from the view sent by controller and calculates before sendig it back.
     public class PriceQuotationModel
     {
         [Required(ErrorMessage =
